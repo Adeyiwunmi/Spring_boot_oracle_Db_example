@@ -1,4 +1,4 @@
-package com.exam.demo;
+package com.exam.demo.model;
 
 
 import javax.persistence.*;
@@ -18,7 +18,7 @@ public class User {
     @Column(name = "NAME")
     private String name;
 
-    @Column(name = "PASSWORDHASH")
+    @Column(name = "PASSWORD")
     private String email;
 
     public User(String name, String email) {

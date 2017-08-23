@@ -12,7 +12,10 @@ import java.sql.SQLException;
 @EnableTransactionManagement
 public class AppConfig {
 
+    //You should change it to your server url if using in production
     private  static final String ORACLE_URL = "jdbc:oracle:thin:@localhost:1521:XE";
+
+
     private static  final String DB_USERNAME= "Your Oracle Database URL HERE ";
     private  static final String DB_PASSWORD = "Your Oracle Database Password Here";
 
